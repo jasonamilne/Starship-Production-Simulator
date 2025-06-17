@@ -1,0 +1,44 @@
+{
+  "simulation_parameters": {
+    "num_starships": 50,
+    "start_date": "2025-01-01"
+  },
+  "production_stages": {
+    "Ring_Stacking": {
+      "mean_time_hours": 40,
+      "std_dev_hours": 5,
+      "pass_rate": 0.98,
+      "station_count": 2
+    },
+    "Welding": {
+      "mean_time_hours": 120,
+      "std_dev_hours": 15,
+      "pass_rate": 0.95,
+      "station_count": 3
+    },
+    "Plumbing_Wiring": {
+      "mean_time_hours": 150,
+      "std_dev_hours": 20,
+      "pass_rate": 0.97,
+      "station_count": 4
+    },
+    "Heat_Shield_Tiling": {
+      "mean_time_hours": 200,
+      "std_dev_hours": 30,
+      "pass_rate": 0.92,
+      "station_count": 3
+    },
+    "Engine_Integration": {
+      "mean_time_hours": 80,
+      "std_dev_hours": 10,
+      "pass_rate": 0.99,
+      "station_count": 2
+    },
+    "Final_Checkout": {
+      "mean_time_hours": 60,
+      "std_dev_hours": 8,
+      "pass_rate": 0.99,
+      "station_count": 2
+    }
+  }
+}
