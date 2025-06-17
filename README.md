@@ -51,10 +51,10 @@ pip install pandas numpy
 
 **3. Run the Simulator**
 
-Execute the data generator script from your terminal. It will read your config.json and create a detailed CSV log of the simulation.python 
+Execute the data generator script from your terminal. It will read your config.json and create a detailed CSV log of the simulation.
 
 ```python
-configurable_data_generator.py
+python3 configurable_data_generator.py
 ```
   
 This will produce a ```starship_production_log_configurable.csv``` file in the same directory, which is now ready for analysis.
